@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@300&family=Bellefair&family=Inter:wght@300&family=Poppins:wght@300&display=swap');
+.main__img{
+   position: absolute;
+   width: 850px;
+   top:0px;
+   left:0px;
+   height: 100vh;
+}
+main{
+    float: right;
+}
+.form{
+    position: absolute;
+    width: 431px;
+    height: 498px;
+    left: 890px;
+
+}
+.form__header{
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 55px;
+color: #000000;
+}
+.form__p1{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+}
+.form__p2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.form__span{
+    font-weight: 600;
+    color: #FF432A;
+}
+.form__input{
+    outline: none;
+border: none;
+position: relative;
+top:20px;
+font-size: 24px;
+}
+.form__input1{
+    outline: none;
+    border: none;
+    position: relative;
+top: 35px;
+font-size: 24px;
+
+}
+.register__link{
+    text-decoration: none;
+}
+.form__input2{
+    outline: none;
+    border: none;
+    position: relative;
+top: 55px;
+font-size: 24px;
+
+}
+.form__input3{
+    outline: none;
+    border: none;
+    position: relative;
+top:70px;
+font-size: 24px;
+
+}
+.form__name1{
+    position: relative;
+    top: 10px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #000000;
+}
+.form__name2{
+    position: relative;
+    top: 30px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #000000;
+}
+.form__name3{
+    position: relative;
+    top: 45px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #000000;
+}
+.form__name4{
+    position: relative;
+    top: 65px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #000000;
+}
+
+
+
+.div__form{
+    position: relative;
+    top: 10px;
+}
+.input__svg{
+    position: relative;
+    top: 20px;
+}
+.input__svg1{
+    position: relative;
+    top: 37px;
+}
+.input__svg2{
+    position: relative;
+    top: 55px;
+}
+.input__svg3{
+    position: relative;
+    top: 70px;
+}
+.section{
+    position: absolute;
+width: 200px;
+height: 24px;
+left: 1089px;
+top: 600px;
+}
+
+
+.form__btn{
+    position: relative;
+    width: 429px;
+    height: 53px;
+
+    top: 100px;
+    
+    
+    background: #FF432A;
+
+    border-radius: 32px;
+  cursor: pointer;
+  font-weight: 800;
+  
+font-size: 25px;
+color: #FFFFFF;
+}
+@media screen and  (max-width:1000px){
+    .main__img{
+    display: none;
+    }
+    .form{
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        left: 30px;
+        
+    }
+    .form__btn{
+        width: 300px;
+       
+    }
+    
+    }
+    .error{
+
+   position: relative;
+   top: 50px;
+    display: flex;
+        color: red;
+        font-family: Poppins;
+    }
